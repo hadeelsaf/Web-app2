@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreateUser page</title>
+    <style>   
+    Body {  
+      font-family: Calibri, Helvetica, sans-serif;  
+      background-color: pink;  
+    }  
+    button {   
+           background-color: #4CAF50;   
+           width: 100%;  
+            color: orange;   
+            padding: 15px;   
+            margin: 10px 0px;   
+            border: none;   
+            cursor: pointer;   
+             }   
+     form {   
+            border: 3px solid #f1f1f1;   
+        }   
+     input[type=text], input[type=password], input[type=email] {   
+            width: 100%;   
+            margin: 8px 0;  
+            padding: 12px 20px;   
+            display: inline-block;   
+            border: 2px solid green;   
+            box-sizing: border-box;   
+        }  
+     button:hover {   
+            opacity: 0.7;   
+        }   
+      .cancelbtn {   
+            width: auto;   
+            padding: 10px 18px;  
+            margin: 10px 5px;  
+        }   
+     .container {   
+            padding: 25px;   
+            background-color: lightblue;  
+        }   
+    </style>   
+  </head>
+  <body> 
+    <form action="/client/Home/home.html">
+      <div class="container"> 
+        <label for="full_name">Enter your full name</label><br>  
+        <input type="text" name="full_name"><br>  
+        <label for="id"></label>Enter your id</label><br>  
+        <input type="text" id="id"><br>  
+        <label for="mail">Enter your email</label><br>  
+        <input type="email" name="mail"><br>  
+        <label for="password">Enter your password</label><br>  
+        <input type="password" name="password"><br>  
+        <button type="submit" value="Submit" onclick="Goto()">Submit</button>
+      </div>
+  </form> 
+</body>
+  <script src="CreateUser.js"></script>
+</html>

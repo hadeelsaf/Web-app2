@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Todo_list.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">MY TO-DO LIST WEB APP</h1>
+            </div>
+        </header>
+        <div id="todo-list">
+            <h2 class="title">Today's TO-DO list</h2>
+            <ul id="list">
+                <li>Have my dinner Time</li>
+                <li>Do some Workouts in the Gym</li>
+                <li>Dress Up For a Party</li>
+                <li>Go To Grandmother Home</li>
+            </ul>
+        </div>
+        <div id="add-todo">
+            <input type="text" id="text" placeholder="Add a Todo..." required>
+            <span> <button onclick="addLI()">Add</button></span>
+            <span> <button onclick="editLI()">Edit</button></span>
+            <span> <button onclick="deleteLI()">Delete</button></span>
+        </div>
+    </div>
+    <script src="todo list mod.js"></script>
+</body>
+</html>
