@@ -5,7 +5,7 @@ const createUser = async (fullName, id, mail, password) => {
     fullName: 'Hadeel Safadi',
     id: '123456789',
     mail: 'hadel12@hotmail.com',
-    password: 'hadel12',
+    password: '123456789',
   });
   console.log(res.data);
 };
