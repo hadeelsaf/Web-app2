@@ -3,7 +3,7 @@
 const createUser = async (fullName, id, mail, password) => {
   const res = await axios.post('http://localhost:8000/', {
     fullName: 'Hadeel Safadi',
-    id: '206438939',
+    id: '123456789',
     mail: 'hadel12@hotmail.com',
     password: 'hadel12',
   });
